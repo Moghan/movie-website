@@ -1,5 +1,11 @@
+import fresh_tomatoes
 import movie
+import json
 
-film = movie.Movie("Hedenhös", "Barn på bygden", "trailer link", "image link")
+movies = []
 
-film.showInfo()
+with open('movies.json') as data_file:    
+    for mData in json.load(data_file):
+        movies.append(movie.Movie(mData['title'], mData['trailer'], mData['image']))
+
+fresh_tomatoes.open_movies_page(movies)

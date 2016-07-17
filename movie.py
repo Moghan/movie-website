@@ -1,13 +1,5 @@
 class Movie():
-    def __init__(self, mTitle, mStoryLine, mTrailer, mImage):
+    def __init__(self, mTitle, mTrailer, mImage):
         self.title = mTitle
-        self.storyLine = mStoryLine
-        self.trailer = mTrailer
-        self.image = mImage
-
-    def showInfo(self):
-        print(self.title)
-
-
-    
-    
+        self.trailer_youtube_url = mTrailer
+        self.poster_image_url = mImage
