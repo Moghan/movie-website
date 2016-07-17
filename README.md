@@ -7,6 +7,8 @@ First project in Udacity´s Full Stack Web Developer Nanodegree.
 
 The project repo is available at https://github.com/Moghan/movie-website.git
 
+Have a look at the generated page [here](http://riots.se/movie-website/)
+
 ## Getting started
 Python is needed. In your console, type 
 ```bash
@@ -14,6 +16,13 @@ Python is needed. In your console, type
   ```
 to verify that Python is installed.
 If not you can download it from [here](https://www.python.org/downloads/).
+
+To run program, in project folder type
+```bash
+  $> python movie_website
+  ```
+It will generate a html page(fresh_tomatoes.html) and open it in your browser.
+
 
 
 
